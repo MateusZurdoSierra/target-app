@@ -1,4 +1,4 @@
-package com.targetapp
+package com.mateuszurdo.targetapp
 
 import android.os.Build
 import android.os.Bundle
