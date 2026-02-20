@@ -1,32 +1,34 @@
-import { fontFamily } from "@/theme/fontFamily";
-import { router } from "expo-router";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { View } from "react-native";
+
+import { HomeHeader } from "@/components/HomeHeader";
+import { Target } from "@/components/Target";
+
+const summary = {
+  total: "R$ 2.680,00",
+  input: {
+    label: "Entradas",
+    value: "R$ 1.000,00",
+  },
+  output: {
+    label: "Saídas",
+    value: "R$ 1.000,00",
+  },
+};
+
+const targets = [
+  {
+    name: "Comprar uma cadeira ergonômica",
+    percentage: "50%",
+    current: "R$ 1.000,00",
+    target: "R$ 2.000,00",
+  },
+];
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
-      <Button title="Go to Target" onPress={() => router.navigate("/target")} />
-      <Button
-        title="Go to Transaction"
-        onPress={() => router.navigate("/transaction/123")}
-      />
-      <Button
-        title="Go to In Progress"
-        onPress={() => router.navigate("/in-progress/123")}
-      />
+    <View style={{ flex: 1 }}>
+      <HomeHeader data={summary} />
+      <Target data={targets[0]} />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  text: {
-    fontFamily: fontFamily.bold,
-  },
-});
