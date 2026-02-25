@@ -3,9 +3,9 @@ export const colors = {
     100: "#d8ddfc",
     200: "#b1bbf9",
     300: "#8DA2EB",
-    400: "#53569C",
-    500: "#3d44cd",
-    800: "#1F2267",
+    400: "#cbf3f0",
+    500: "#2ec4b6",
+    800: "#006d77",
   },
   gray: {
     100: "#f1f5f5",
@@ -23,4 +23,4 @@ export const colors = {
   },
   white: "#ffffff",
   black: "#000000",
-}
+};
