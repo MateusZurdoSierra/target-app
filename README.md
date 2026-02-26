@@ -85,13 +85,21 @@ npm run web
 
 #### Criação de uma meta e acompanhamento
 
-<img src="docs/screenshots/target.png" alt="Tela inicial" width="320" />
-<img src="docs/screenshots/targetdetails.png" alt="Tela inicial" width="320" />
+<table>
+  <tr>
+    <td><img src="docs/screenshots/target.png" alt="Criar/editar meta" width="320" /></td>
+    <td><img src="docs/screenshots/targetdetails.png" alt="Meta em progresso" width="320" /></td>
+  </tr>
+</table>
 
 #### Nova transação (guardar ou retirar valor)
 
-<img src="docs/screenshots/uptransaction.png" alt="Tela inicial" width="320" />
-<img src="docs/screenshots/downtransaction.png" alt="Tela inicial" width="320" />
+<table>
+  <tr>
+    <td><img src="docs/screenshots/uptransaction.png" alt="Tela inicial" width="320" /></td>
+    <td><img src="docs/screenshots/downtransaction.png" alt="Tela inicial" width="320" /></td>
+  </tr>
+</table>
 
 ---
 
